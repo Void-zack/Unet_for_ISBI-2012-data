@@ -5,15 +5,15 @@
 This folders should have the following tree:
 ```
     ISBI_data
-    │
-    ├───train
-    |    ├───raw.tif
-    |    └───mask.tif
-    │
-    └───test
-        ├───raw.tif
-        └───mask.tif
-```
+     │
+     ├───train
+     |    ├───raw.tif
+     |    └───mask.tif
+     │
+     └───test
+          ├───raw.tif
+          └───mask.tif
+``` 
 - The result will be saved in the **/result** directory.
 
 ## Runing the code
