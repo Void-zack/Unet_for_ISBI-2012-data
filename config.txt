@@ -1,0 +1,43 @@
+#==DATA DIRRCTORY STRUCTURE==#
+#
+#    ISBI_data
+#    │
+#    ├───train
+#    |    ├───raw.tif
+#    |    └───mask.tif
+#    │
+#    └───test
+#        ├───raw.tif
+#        └───mask.tif
+#
+#============================#
+
+#=====SET THE MODEL HERE=====#
+[model settings]
+edge = 512
+gpus = 4
+gpu_usage = 0,1,2,3
+seed = 2019
+lr = 0.00001
+
+
+
+#====SET HERE IN EACH TASK====#
+[data path]
+train_path = ./ISBI_data/Train/
+test_path = ./ISBI_data/Test/
+result_dir = ./result/
+
+[task settings]
+task name = test ISBI
+raw_file = raw.tif
+mask_file = mask.tif
+
+[train settings]
+batch_size = 32
+step_per_epoch = 20
+epoch = 500
+split_rate = 0.15
+
+[predict settings]
+save result(YES/NO) = YES
