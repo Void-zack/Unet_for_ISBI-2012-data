@@ -21,7 +21,7 @@ This folders should have the following tree:
 
 - Run the **data_predict.py** to predict: `python data_predict.py`
 
-- Run the **data_compare.py** to compare the Ground Truth with the Result: `python data_compare.py imageID`
+- Run the **data_compare.py** with the 'imageID' to compare the Ground Truth with the Result: `python data_compare.py imageID`
 
 ## About the configuration
 
