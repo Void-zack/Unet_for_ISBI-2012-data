@@ -32,7 +32,7 @@ def main():
     raw_plot = prep_raw_plot(img)
     net = load_model(dir_path+'model.hdf5')
     pred_ = bina(np.squeeze(net.predict(raw)))
-    label_ = test_mask(imread(test_path+mfile))[ID]    
+    label_ = test_mask(imread(test_path+mfile))[ID]
     raw_ = np.squeeze(raw_plot)
     ########################################
     # Comparing
