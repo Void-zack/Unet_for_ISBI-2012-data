@@ -1,7 +1,7 @@
 # Unet_for_ISBI-2012-data
 
 ## About the data & result
-- All of the data is in the **/ISBI_data** directory,It contains two directories：**/Train** , **/Test** .
+- All of the data are in the **/ISBI_data** directory,It contains two directories：**/Train** , **/Test** .
 This folders should have the following tree:
 ```
     ISBI_data
