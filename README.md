@@ -11,8 +11,8 @@ This folders should have the following tree:
      │ └───mask.tif
      │
      └───test
-           ├───raw.tif
-           └───mask.tif
+       ├───raw.tif
+       └───mask.tif
 ``` 
 - The result will be saved in the **/result** directory.
 
