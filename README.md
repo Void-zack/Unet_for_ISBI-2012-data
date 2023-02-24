@@ -16,7 +16,7 @@ This folders should have the following tree:
 ``` 
 - The result will be saved in the **/result** directory.
 
-## Runing the code
+## How to use?
 - Run the **data_train.py** to train: 
 `python data_train.py`
 
